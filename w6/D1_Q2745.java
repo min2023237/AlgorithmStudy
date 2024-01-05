@@ -10,6 +10,7 @@ import java.io.InputStreamReader;
 // 36진법 : 0부터 9까지의 숫자와 A부터 Z까지의 알파벳(총 26개의 알파벳)을 사용
 // 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z
 // 35진법은 Y까지 사용한다.
+//
 public class BaseConversion {
 
     public static void main(String[] args) throws IOException {
