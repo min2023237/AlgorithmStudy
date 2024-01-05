@@ -28,6 +28,9 @@ public class ColoredPaper {
             int X = Integer.parseInt(splitString[0]);
             int Y = Integer.parseInt(splitString[1]);
 
+            // 배열의 시작 위치
+
+
 
 
         }
