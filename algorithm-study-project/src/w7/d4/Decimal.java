@@ -39,19 +39,19 @@ public class Decimal {
             double absoluteValue = Math.abs(sqrtResult);    //Math.abs는 주어진 숫자의 절대값을 반환한다.
 
             // 소수 여부
-            boolean isDemical = true;
+            boolean isDecimal = true;
 
             // 소수 판별
-            // 2부터 absoluteValue까지
+            // 2부터 absoluteValue까지 나누어본다.
             for(int j=2; j<=absoluteValue; j++) {
                 if(num % j == 0) {
-                    isDemical = false;
+                    isDecimal = false;
                     break;
                 }
             }
 
             // 소수의 개수 출력
-            if(isDemical) {
+            if(isDecimal) {
                 decimalCounts++;
             }
 
